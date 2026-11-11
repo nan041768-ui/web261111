@@ -31,11 +31,6 @@ function sortBy(list, key, desc) {
     return copy;
 }
 
-// 선택 상자 값으로 정렬해서 다시 그리기 (반환값 없음) 
-function applySort() {
-    const key = document.getElementById("sort").value;
-    renderCards(sortBy(movies, key, key !== "title"));
-}
 
 const yearsSince = dateStr => new Date().getFullYear() - new Date(dateStr).getFullYear();
 
@@ -66,5 +61,14 @@ function renderCards(list) {
     document.querySelector("#count").textContent = list.length + "편";
 }
 
-// 초기 로딩 시 기본 정렬(평점순) 적용 (단계 6)
+
+// 선택 상자 값으로 정렬해서 다시 그리기 (반환값 없음) 
+function applySort() {
+    const key = document.getElementById("sort").value;
+    renderCards(sortBy(movies, key, key !== "title"));
+}
+
+
+
+// 초기 로딩 시 기본 정렬(평점순) 적용 (6단계)
 applySort();

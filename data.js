@@ -44,6 +44,6 @@ const movies = [
       rating: 7.7, 
       poster: "https://media.themoviedb.org/t/p/w600_and_h900_face/qBuAglXtjBW9JBpIJ3W40nY58Am.jpg" 
    }
-   
+
 ];
 
