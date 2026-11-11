@@ -168,15 +168,10 @@ nav a {
 }
 
 @media (prefers-color-scheme: dark) {
-
    .card {
-
       background: #1f2429;
-
       color: #eee;
-
    }
-
 }
 
 h1,
@@ -185,7 +180,6 @@ footer {
 }
 
 @keyframes pulse {
-
    0%,
    100% {
       transform: scale(1);
@@ -318,3 +312,4 @@ body.is-loading .card {
 }
 
 .toolbar { display: flex; align-items: center; gap: 12px; color: #fff; }
+
