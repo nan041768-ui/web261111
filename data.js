@@ -1,40 +1,24 @@
-// data.js : 내 영화 5편 데이터 / 여상수(09) / 10주차
+// data.js : 내 영화 5편 데이터 / 민윤희(2651025) / 11주차
 // 영화 한 편 = 객체 하나. 키 5개 : title, year, date, rating, poster
 
+
 const movies = [
-    {
-        title: "극장판 치이카와: 인어 섬의 비밀", 
-        year: 2026, 
-        date: "2026-07-24",
-        rating: 7.1, 
-        poster: "/5TMyytCI5Pfc9c1eNsljiCdiB05.jpg"
-    },
-    {
-        title: "너의 이름은", 
-        year: 2016, 
-        date: "2016-07-01",
-        rating: 8.4, 
-        poster: "/2DJCufz3Oa703PbLjNX1pM6MCG2.jpg"
-    },
-    {
-        title: "엔드 오브 에반게리온", 
-        year: 1997, 
-        date: "1997-07-19",
-        rating: 8.2, 
-        poster: "/AfyuI3glMCBDFmNPj9PY6DwbgGp.jpg"
-    },
-    {
-        title: "명탐정 코난: 100만 달러의 펜타그램", 
-        year: 2024, 
-        date: "2024-04-126",
-        rating: 6.9, 
-        poster: "/4TMkOnI6rCYxqD059aeeQSBv5mc.jpg"
-    },
-    {
-        title: "모노노케 히메", 
-        year: 1997, 
-        date: "1997-07-12",
-        rating: 8.3, 
-        poster: "/gl0jzn4BupSbL2qMVeqrjKkF9Js.jpg"
-    }
+
+   { title: "아이언맨", year: 2008, date: "2008-04-30",
+      rating: 8.4, poster: "/abc123.jpg" },
+
+   { title: "어벤져스: 엔드게임", year: 2019, date: "2019-04-24",
+      rating: 8.2, poster: "/z7ilT5rNN9kDo8JZmgyhM6ej2xv.jpg" },
+
+   { title: "어벤져스: 인피니티 워", year: 2018, date: "2018-04-26",
+      rating: 8.2, poster: "/kmP6viwzcEkZeoi1LaVcQemcvZh.jpg" },
+
+   { title: "스파이더맨: 홈커밍", year: 2017, date: "2017-07-05",
+      rating: 7.3, poster: "/hjki9weYYVABvkpZbX5jBOmKXXv.jpg" },
+
+   { title: "스파이더맨: 브랜드 뉴 데이", year: 2026, date: "2026-07-29",
+      rating: 8.2, poster: "tps://image.tmdb.org/t/p/w342/8mLepBa5l591xFidRpn65xV7hb4.jpg" }
+
+
 ];
+
