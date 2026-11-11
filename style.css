@@ -190,7 +190,6 @@ footer {
    100% {
       transform: scale(1);
    }
-
    50% {
       transform: scale(1.15);
    }
@@ -207,14 +206,12 @@ footer {
       dt {
          color: var(--accent);
       }
-
       grid-template-columns: 1fr 2fr;
    }
 
    .detail img {
       width: 100%;
    }
-
    nav ul {
       flex-direction: row;
       gap: 20px;
@@ -224,13 +221,9 @@ footer {
 @media (prefers-color-scheme: dark) {
 
    .card {
-
       background: #1f2429;
-
       color: #eee;
-
    }
-
 }
 
 body {
@@ -318,3 +311,10 @@ body.is-loading .card {
       background-position: 0 50%;
    }
 }
+
+.card.hot .badge {
+   background: crimson;
+   color: #fff; 
+}
+
+.toolbar { display: flex; align-items: center; gap: 12px; color: #fff; }
